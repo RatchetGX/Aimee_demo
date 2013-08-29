@@ -1,0 +1,44 @@
+﻿
+/* --------------
+   *   链接样式  *
+* ------------ */
+
+body a.noicon {
+  background:transparent none !important;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+a{font-size:12px;color:#0066CC;outline:none;bblr:expression(this.onFocus=this.blur());}
+a:link,a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+
+/* 图标Cut */
+/*a[href^="http:"], a[href^="https:"],
+a[href^="http:"]:visited, a[href^="https:"]:visited,
+a[href^="mailto:"], a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"],
+a[href$=".rss"], a[href$=".rdf"], a[href^="aim:"] {
+  padding:2px 22px 2px 0;
+  margin:-2px 0;
+  background-repeat: no-repeat;
+  background-position: right center;
+}*/
+
+/* 扩展 */
+/*a[href^="http:"]          { background-image: url(icons/external.png); }
+a[href^="https:"]         { background-image: url(icons/lock.png); }
+a[href^="mailto:"]        { background-image: url(icons/email.png); }
+a[href^="http:"]:visited  { background-image: url(icons/visited.png); }*/
+
+/* 文件 */
+
+
+
+.xx span a[title$=".pdf"]   { background: url(../../icons/icon_pdf.png);}
+.xx span a[title$=".doc"]   { background: url(../../icons/icon_word.png) no-repeat left;  height:16px; width:16px; display: inline-block;border:0px; outline:hidden; overflow:hidden}
+.xx span a[title$=".xls"]   { background: url(../../icons/icon_xls.png);}
+
+/* 其他 */
+a[href$=".rss"],
+a[href$=".rdf"]   { background-image: url(skins/icons/feed.png); }
+a[href^="aim:"]   { background-image: url(skins/icons/im.png); }

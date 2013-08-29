@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document 
+ * Author:chenwei
+ * Time:2012/10/15
+ * Email:weichen@wisedu.com
+ * Copyright (c) 2012 By Wisedu/Chenwei
+*/
+/* Base*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:12px/1.8 Tahoma,"宋体";
+	color:#666;
+	background:#ebf2fd;
+}
+input,img{
+	border:0;
+}
+li{
+	list-style:none;
+}
+b,i{
+	font-style:normal;
+}
+a:link,a:visited{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#06C;
+}
+.clr{
+	zoom:1;
+}
+h1,h3{
+	font-family:Tahoma,"Microsoft YaHei";
+	color:#000;
+}
+
+/*cotainer*/
+.container .mainLeft{
+	width:184px;
+	float:left;
+	background:#eef6fb;
+}
+.container .mainLeft .areaCon{
+	border:1px solid #cedcef;
+	border-top:0;
+	min-height:500px;
+	_height:500px;
+}
+.container .mainLeft ul .list{
+	width:100%;
+}
+.container .mainLeft .areaTitle{
+	height:38px;
+	line-height:38px;
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	background:url(../image/AllImages.png) no-repeat -3px -92px;
+}
+.container .mainLeft .conTitle{
+	background:url(../image/titleBg.png) repeat-x top left;
+	display:block;
+	height:24px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #cedcef;
+	color:#000;
+	padding:1px 10px 0 10px;
+}
+.conTitle i.arrow{
+	float:right;
+	display:block;
+	height:9px;
+	width:9px;
+	margin-top:5px;
+	background:url(../image/AllImages.png) no-repeat -7px -148px;
+	overflow:hidden;
+}
+.container .mainLeft a.hover i.arrow{
+	background:url(../image/AllImages.png) no-repeat -20px -148px;
+}
+.conTitle b i{
+	display:inline-block;
+	height:12px;
+	width:10px;
+	margin-right:5px;
+	_margin-top:4px;
+	background:url(../image/AllImages.png) no-repeat -7px -135px;
+	vertical-align:middle;
+	overflow:hidden;
+}
+.mainLeft .listCon{
+	border-bottom:1px solid #cedcef;
+	display:none;
+}
+.mainLeft .listCon li{
+	padding:4px 0 4px 20px;
+	_padding:8px 0 8px 20px;
+}
+.cAreaCon3 .messList .messListCon li i,
+.mainLeft .listCon li a i{
+	display:inline-block;
+	height:8px;
+	width:8px;
+	margin-right:5px;
+	background:url(../image/AllImages.png) no-repeat -22px -137px;
+	margin-top:5px;
+	overflow:hidden;
+}
+.mainRight{
+	padding:0 0 0 0;
+}
+.mainRight .mRL{
+	float:left;
+	width:400px;
+}
+.mainRight .mRR{
+	padding:0 0 0 410px;
+}
+.commonArea{
+	margin-bottom:15px;
+}
+.commonArea h3{
+	background:url(../image/commonTitleBg.png) no-repeat left top;
+	height:33px;
+	width:395px;
+	_float:left;
+	font-size:14px;
+	line-height:33px;
+}
+.commonArea .commonAreaTitle{
+	width:390px;
+}
+.commonArea h3 .hRight{
+	background:url(../image/commonTitleBg.png) no-repeat right top;
+	height:100%;
+	margin-right:-5px;
+	_mragin-right:0px;
+	margin-left:100px;
+	_margin-left:95px;
+	position:relative;
+	text-align:right;
+}
+.commonArea h3 b{
+	float:left;
+	margin:0 0 0 15px;
+	position:relative;
+}
+.commonArea h3 .hRight a{
+	margin-right:10px;
+	font-size:12px;
+	font-weight:normal;
+}
+.commonArea .cAreaCon{
+	background:#fff;
+	border:1px solid #ddd;
+	border-top:0;
+	overflow:hidden;
+	padding:10px 5px;
+}
+.commonArea .cAreaCon2{
+	padding:5px;
+}
+.commonArea .cAreaCon3{
+	padding:0px;
+}
+.commonArea .cAreaCon4{
+	padding:1px 1px 5px 1px;
+}
+.cAreaCon a{
+	color:#06C;
+	font-size:14px;
+}
+.cAreaCon3 a,.cAreaCon4 a{
+	font-size:12px;
+}
+.cAreaCon3 a{
+	color:#666;
+}
+.cAreaCon ul.menuBox li{
+	width:175px;
+	_width:170px;
+	float:left;
+	margin:10px 8px;
+}
+.cAreaCon .navImg{
+	height:57px; width:57px;
+	overflow:hidden;
+	position:relative;
+	display:block;
+	float:left;
+}
+.cAreaCon .navImg img{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.cAreaCon .navCon{
+	padding-left:70px;
+}
+.cAreaCon .program img{
+	left:-66px;
+}
+.cAreaCon .almost img{
+	top:-70px;
+}
+.cAreaCon .choseClass img{
+	top:-70px;
+	left:-66px;
+}
+.cAreaCon .achievement img{
+	top:-140px;
+}
+.cAreaCon .but img{
+	top:-140px;
+	left:-66px;
+}
+.t_kcb{
+	font-size:12px;
+	text-align:center;
+	background:#D9D9D9;
+}
+.t_kcb .tr1{
+    height:30px;
+	background:#67889E;
+	color:#FFF;
+}
+.t_kcb .tr2{
+    height:35px;
+	background:#F9F9F9;
+}
+
+.t_kcb .td1{
+    height:50px;
+	width:65px;
+	background:#FFFFFF;
+}
+
+.t_kcb .td2{
+	height:50px;
+	width:65px;
+	background:#F0F6FA;
+}
+.leaveMess{
+	padding:5px 10px;
+	overflow:hidden;
+	background:#d9e5f3;
+	border-bottom:1px solid #d9d9d9;
+}
+.leaveMess p{
+	padding:0 0 0 80px;
+}
+.leaveMess .txtInput{
+	border:1px solid #d9d9d9;
+	padding:3px 0px 3px 2px;
+}
+.cAreaCon4 .lMBtn{
+	border-radius:3px;
+	background:#ff6c00;
+	border-left:#833700 1px solid;
+	border-right:#833700 1px solid;
+	border-top:#a74700 1px solid;
+	border-bottom:#a74700 1px solid;
+	color:#fff;
+	padding:3px 10px;
+	_padding:1px 10px;
+	float:left;
+	cursor:pointer;
+}
+.leaveMess .submit{
+	cursor:pointer;
+	border-radius:3px;
+	padding:3px 10px;
+	_padding:1px 10px;
+	background:#89c700;
+	color:#fff;
+	border-left:#4d7000 1px solid;
+	border-right:#4d7000 1px solid;
+	border-top:#6a9a00 1px solid;
+	border-bottom:#6a9a00 1px solid;
+	margin-left:10px;
+}
+.messList ul li{
+	border-bottom:1px solid #d9d9d9;
+	zoom:1;
+	padding:5px 10px;
+}
+.cAreaCon4 .messList ul div,
+.cAreaCon4 .messList ul li{
+	padding:2px 5px;
+}
+.messListCon{
+	_float:left;
+	padding-bottom:5px;
+	overflow:hidden;
+	zoom:1;
+}
+.messList ul div .mLTitle,
+.messList ul li .mLTitle{
+	float:left;
+	width:260px;
+	padding-left:5px;
+}
+.cAreaCon3 .messList ul div .mLTitle,
+.cAreaCon3 .messList ul li .mLTitle{
+	width:250px;
+	_width:290px;
+	_margin:3px 0 0 0;
+}
+.messList ul div .mLTime,
+.messList ul li .mLTime{
+	padding-left:275px;
+	color:#999;
+	height: 21px
+}
+.messList ul .mLHeader{
+	background:#f1f1f1;
+	color:#000;
+	line-height:25px;
+}
+.messList ul .mLHeader .mLTitle{
+	border-right:1px solid #d9d9d9;
+}
+.messList ul .mLHeader .mLTime{
+	color:#000;
+}
+
+

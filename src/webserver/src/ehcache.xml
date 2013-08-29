@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+
+	<diskStore path="java.io.tmpdir/ssfw" />
+
+	<defaultCache 
+		maxElementsInMemory="2000" 
+		memoryStoreEvictionPolicy="LRU" 
+		eternal="false"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300" 
+		overflowToDisk="false" 
+		diskPersistent="false" />
+    
+	<cache 
+		name="selectRangeCache" 
+		maxElementsInMemory="100" 
+		memoryStoreEvictionPolicy="LRU" 
+		eternal="true"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300" 
+		overflowToDisk="true" 
+		diskPersistent="false" />
+		
+	<cache 
+		name="selectRangeDefineCache" 
+		maxElementsInMemory="10" 
+		memoryStoreEvictionPolicy="LRU" 
+		eternal="true"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300" 
+		overflowToDisk="true" 
+		diskPersistent="false" />
+        
+	<cache 
+		name="bizobjCache" 
+		maxElementsInMemory="100" 
+		memoryStoreEvictionPolicy="LRU" 
+		eternal="true"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300" 
+		overflowToDisk="true" 
+		diskPersistent="false" />
+		
+	<cache 
+		name="loggerConfigCache" 
+		maxElementsInMemory="100" 
+		memoryStoreEvictionPolicy="LRU" 
+		eternal="true"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300" 
+		overflowToDisk="true" 
+		diskPersistent="false" />
+		
+	<cache 
+		name="securityCache" 
+		maxElementsInMemory="5" 
+		memoryStoreEvictionPolicy="LRU" 
+		eternal="true"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300" 
+		overflowToDisk="true" 
+		diskPersistent="false" />
+		
+	<cache 
+		name="moduleCache" 
+		/>
+    
+
+</ehcache>

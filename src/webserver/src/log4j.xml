@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//LOGGER" "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <!-- Appenders -->
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} %5p %c:%L %n# %m%n" />
+        </layout>
+    </appender>
+        
+    <appender name="logFile" class="org.apache.log4j.RollingFileAppender">    
+        <!-- 设置日志输出文件名 -->       
+        <param name="File" value="aimee.log" />
+        <!-- 设置是否在重新启动服务时，在原有日志的基础添加新日志 -->    
+        <param name="Append" value="true" />    
+        <param name="MaxFileSize" value="5MB" />    
+        <param name="MaxBackupIndex" value="10" />    
+        <layout class="org.apache.log4j.PatternLayout">    
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} %5p %c:%L %n# %m%n" />  
+        </layout>    
+    </appender>    
+
+    <!-- Aimee Loggers -->
+    <logger name="org.ratchetgx.aimee">
+        <level value="info" />
+    </logger>
+    
+    <!-- 3rd Part Jars Loggers -->
+    <logger name="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
+        <level value="info" />
+    </logger>
+
+    <!-- Root Logger -->
+    <root>
+        <priority value="warn" />
+        <appender-ref ref="console" />
+        <appender-ref ref="logFile" />
+    </root>
+	
+</log4j:configuration>

@@ -1,0 +1,201 @@
+@charset "utf-8";
+/*
+ *进入首页页面
+ *陈伟
+ *2012.08.06
+ */
+/* base stylesheet*/
+body{
+	font-size:12px;
+	font-family:Arial,sans-serif,"Micosoft Yahei";
+	line-height:1.8;
+}
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+img{
+	border:0;
+}
+a {
+	text-decoration:none;
+	color:#069;
+}
+.clear{
+	clear:both;
+}
+/* this  login_in page  stylesheet */
+.header{
+	height:55px;
+	background:#4298df;
+	width:100%;
+	overflow:hidden;
+}
+.header .logo{
+	float:left;
+	width:85px;
+	height:30px;
+	margin:1% 0 0 3%;
+}
+
+.header .menu{
+	float:left;
+	overflow:hidden;
+	margin:1.2% 0 0 3%;
+}
+.header .menu ul li{
+	float:left;
+	width:80px;
+}
+.header .menu ul li a{
+	color:#fff;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+}
+.header .setting{
+	float:right;
+	margin:1.2% 0% 0 0%;
+}
+.header .setting a{
+	color:#fff;
+	display:block;
+	width:80px;
+	height:18px;
+	line-height:18px;
+	float:left;
+}
+.header .setting a:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.header .setting a i{
+	width:17px;
+	height:17px;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+.header .setting a span{
+	float:left;
+}
+.header .setting a.personal_s i{
+	background:url(../image/custom/images/login_in_icon.png) -2px -1px no-repeat;
+}
+.header .setting a.exit i{
+	background:url(../image/custom/images/login_in_icon.png) -2px -23px no-repeat;
+}
+.contenter{
+	overflow:hidden;
+	position:relative;
+	height:620px;
+	background:url(../image/custom/images/left_menu_bg.jpg) repeat-y;
+}
+.contenter .left_menu{
+	width:156px;
+	min-height:600px;
+	background:url(../image/custom/images/left_menu_bg.jpg) repeat-y;
+	float:left;
+	overflow:hidden;
+	_overflow:visible;
+	_height:auto !important;
+	_height:600px;
+}
+.contenter .left_menu a{
+	display:block;
+	height:18px;
+	padding-top:82px;
+	margin-left:35px;
+	width:72px;
+	text-align:center;
+}
+.contenter .left_menu ul li{
+	overflow:hidden;
+	margin-top:20px;
+}
+.contenter .left_menu a.info_enter{
+	background:url(../image/custom/images/login_in_icon.png) -22px 0px no-repeat;
+}
+.contenter .left_menu a.info_inpuiry{
+	background:url(../image/custom/images/login_in_icon.png) -100px 0px no-repeat;
+}
+.contenter .left_menu a.user_manage{
+	background:url(../image/custom/images/login_in_icon.png) -180px 0px no-repeat;
+}
+.contenter .left_menu a.system_manage{
+	background:url(../image/custom/images/login_in_icon.png) -259px 0px no-repeat;
+}
+.contenter .main{
+	min-height:600px;
+	_overflow:visible;
+	_height:auto !important;
+	_height:600px;
+	overflow:hidden;
+}
+.contenter .main .login_box{
+	padding:10px 110px 0 30px;
+	
+}
+.contenter .main .login_box .show_list{
+	border:#90cbfc 1px solid;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.contenter .main .login_box .show_list .title{
+	border-top:3px solid #90cbfc;
+	border-bottom:1px dashed #a6bdd2;
+	overflow:hidden;
+	padding:10px 15px 5px 15px;
+}
+.contenter .main .login_box .show_list .title .t_left i{
+	height:16px;
+	width:16px;
+	float:left;
+	display:block;
+	margin-top:2px;
+	margin-right:8px;
+	background:url(../images/login_in_icon.png) 0 -44px;
+}
+.contenter .main .login_box .show_list .t_left{
+	float:left;
+}
+.contenter .main .login_box .show_list .t_right{
+	float:right;
+}
+.contenter .main .login_box .show_list ul{
+	padding:20px 0px 25px 0px;
+}
+.contenter .main .login_box .show_list ul li{
+	padding:5px 25px 5px 40px;
+	overflow:hidden;
+}
+.contenter .main .login_box .show_list ul li.hover{
+	background:#F7F7F7;
+}
+.contenter .main .login_box .show_list ul li i{
+	display:block;
+	height:3px;
+	width:3px;
+	float:left;
+	background:#90cbfc;
+	margin:11px 8px 0 0 ;
+}
+.contenter .main .login_box .show_list ul li a{
+	color:#666;
+}
+.contenter .main .login_box .show_list ul li a:hover{
+	color:#069;
+}
+.contenter .main .login_box .show_list ul li div.t_right{
+	color:#666;
+}
+.footer{
+	height:30px;
+	background:#4298df;
+	width:100%;
+	line-height:30px;
+	text-align:center;
+	color:white;
+}

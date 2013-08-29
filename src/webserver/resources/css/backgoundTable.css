@@ -1,0 +1,83 @@
+
+/*table*/
+.nowPosition{
+	height:30px;
+	line-height:30px;
+	padding:0 8px;
+	position:relative;
+	overflow:hidden;
+}
+.nowPosition span{
+	display:block;
+	height:100%;
+}
+.nowPosition span.nPLTrangle,.nowPosition span.nPRTrangle{
+	top:0px;
+	width:8px;
+	position:absolute;
+	z-index:2;
+}
+.nowPosition span.nPLTrangle{
+	background:url(../image/tablTitleBg.png) 0px -34px;
+	left:0px;
+}
+.nowPosition span.nPRTrangle{
+	background:url(../image/tablTitleBg.png) 0px -67px;
+	right:0px;
+}
+.nowPosition span.nPMCon{
+	background:#eaf4fa url(../image/tablTitleBg.png) repeat-x;
+	width:100%;
+}
+.nowPosition span a{
+	margin:0 5px;
+}
+.mainRight .table{
+	overflow:hidden;
+	padding:10px;
+	background:#fff;
+	border:1px solid #c0d4e5;
+	border-top:0;
+}
+.mainRight .table .tabForm{
+	padding:5px 0 15px 0;
+}
+.tabForm input{
+	padding:3px 0 3px 2px;
+	border:1px solid #d9d9d9;
+	font-size:12px;
+	color:#666;
+	margin-right:10px;
+}
+input.long{
+	width:200px;
+}
+.tabForm select{
+	margin-right:10px;
+}
+
+.tableTr{
+	/*background: -moz-linear-gradient(top, #ffffff, #f8f8f8); 
+	background: -webkit-linear-gradient(top,#ffffff,#f8f8f8);
+	background: -o-linear-gradient(top,#ffffff, #f8f8f8);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=1,startColorstr=#ffffff,endColorstr=#f8f8f8)";
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#ffffff,endColorstr=#f8f8f8);*/
+	background:url(../image/tablTitleBg.png) bottom left repeat-x;
+	height:32px;
+}
+.tableTr th{
+	margin-bottom:1px;
+	font-weight:normal;
+	color:#000;
+	border-bottom:1px solid #d8e0ef;
+	border-right:1px solid #d8e0ef;
+}
+.fontColorBlue{
+	color:#0060b0;
+}
+.t_con td{
+	padding:3px;
+}
+.t_con td a{
+	color:#06c;
+}

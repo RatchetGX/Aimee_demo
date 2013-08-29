@@ -1,0 +1,126 @@
+/*
+ *鏁欏姟绯荤粺鐣岄潰css鏍峰紡
+ *浣滆�锛氶檲浼�
+ *2012.08.03
+ *濡傛灉浣犲仛浜屾淇敼璇蜂笉瑕佹洿鏀瑰浘鐗囩殑鏍煎紡
+  */
+/* base stylesheet*/
+body{
+	font-size:12px;
+	font-family:Arial,sans-serif,"Micosoft Yahei";
+	line-height:1.8;
+}
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+img{
+	border:0;
+}
+a {
+	text-decoration:none;
+	color:#069;
+}
+.clear{
+	clear:both;
+}
+input{
+	color:#666;
+	background:#f0f0f0;
+	border:1px solid #cacaca;
+}
+/* this  login_page  stylesheet */
+.loginer{
+	background:url(../image/custom/images/login_bg.jpg) repeat-x;
+	width:100%;
+	/*margin-top:10%;*/
+	padding-top:1%;
+	*margin-top:10%;
+	*padding-top:0;
+	height:700px;
+}
+.loginer .login_box{
+	background:url(../image/custom/images/login_box.png) no-repeat;
+	width:711px;
+	height:321px;
+	margin:83px auto 0 auto;
+	padding:7px;
+	position:relative;
+}
+.loginer .login_box .logo{
+	height:83px;
+	position:absolute;
+	top:-83px;
+}
+.loginer .login_box .l_left{
+	float:left;
+	overflow:hidden;
+}
+.loginer .login_box .l_right{
+	float:left;
+	padding:50px 0  0 40px;
+}
+.loginer .login_box .l_right .login_form{
+	padding:20px 0  0 20px;
+	
+}
+.loginer .login_box .l_right .login_form .l_input{
+	margin:0px 0 10px 0;
+	_height:25px;
+	overflow:hidden;
+}
+.loginer .login_box .l_right .login_form .l_input .input_txt{
+	width:70px;
+	text-align:right;
+	display:block;
+	float:left;
+	line-height:25px;
+	font-size:14px;
+	color:#666;
+	letter-spacing:2px;
+}
+
+.loginer .login_box .l_right .login_form .l_input .input_area{
+	width:160px;
+	height:23px;
+	line-height:23px;
+	font-size:14px;
+	text-align:left;
+	display:block;
+	float:left;
+	color:#666;
+	background:#f0f0f0;
+	border:1px solid #cacaca;
+}
+.loginer .login_box .l_right .login_form .l_input .input_area_s{
+	width:80px;
+	margin-right:20px;
+}
+.loginer .login_box .l_right .login_form .l_input .input_btn{
+	background:url(../image/custom/images/login_btn.jpg) no-repeat;
+	width:95px;
+	height:27px;
+	border:0;
+	color:#aa5101;
+	font-weight:bold;
+	cursor:pointer;
+}
+.loginer .login_box .l_right .login_form .l_input .input_m{
+	margin-right:30px;
+}
+.loginer .login_box .l_right .login_form .l_btn{
+	padding-top:20px;
+}
+.loginer .login_box .foot{
+	text-align:center;
+	margin-top:40px;
+}
+.loginer .login_box .foot p{
+	margin:0 0 20px 0;
+}
+.rememberDiv{
+	margin-left: 60px;
+}

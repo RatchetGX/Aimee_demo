@@ -1,0 +1,317 @@
+@charset "utf-8";
+/*
+ *表单页面
+ *陈伟
+ *2012.08.06
+ */
+/* base stylesheet*/
+body{
+	font-size:12px;
+	font-family:Arial,sans-serif,"Micosoft Yahei";
+	line-height:1.8;
+}
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+img{
+	border:0;
+}
+a {
+	text-decoration:none;
+	color:#069;
+}
+.clear{
+	clear:both;
+}
+.float_left{
+	float:left;
+}
+input{
+	color:#666;
+	background:#f0f0f0;
+	border:1px solid #cacaca;
+}
+/* this  login_in page  stylesheet */
+/*头部样式结束 通用*/
+.header{
+	height:55px;
+	background:#4298df;
+	width:100%;
+	overflow:hidden;
+}
+.header .logo{
+	float:left;
+	width:85px;
+	height:30px;
+	margin:1% 0 0 3%;
+}
+
+.header .menu{
+	float:left;
+	overflow:hidden;
+	margin:1.2% 0 0 3%;
+}
+.header .menu ul li{
+	float:left;
+	width:80px;
+}
+.header .menu ul li a{
+	color:#fff;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+}
+.header .setting{
+	float:right;
+	margin:1.2% 0% 0 0%;
+}
+.header .setting a{
+	color:#fff;
+	display:block;
+	width:80px;
+	height:18px;
+	line-height:18px;
+	float:left;
+}
+.header .setting a:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.header .setting a i{
+	width:17px;
+	height:17px;
+	display:block;
+	float:left;
+	margin-right:5px;
+}
+.header .setting a span{
+	float:left;
+}
+.header .setting a.personal_s i{
+	background:url(../image/custom/images/login_in_icon.png) -2px -1px no-repeat;
+}
+.header .setting a.exit i{
+	background:url(../image/custom/images/login_in_icon.png) -2px -23px no-repeat;
+}
+
+/*头部样式结束*/
+
+/*中间样式 部分通用*/
+.contenter{
+	overflow:hidden;
+	position:relative;
+	height:620px;
+}
+.contenter .left_menu{
+	width:156px;
+	min-height:620px;
+	background:url(../image/custom/images/left_menu_bg.jpg) repeat-y;
+	float:left;
+	overflow:hidden;
+	_overflow:visible;
+	_height:auto !important;
+	_height:620px;
+	position:relative;
+	z-index:2;
+}
+.contenter .left_menu a{
+	text-align:center;
+	padding:2px 0 3px 22px;
+}
+.contenter .left_menu .left_menu_ul{
+	padding:10px 0px;
+}
+.contenter .left_menu .left_menu_ul .left_ul_con{
+	padding-left:10px;
+	display:none;
+}
+.contenter .left_menu .left_menu_ul li.hover .left_ul_con{
+	display:block;
+}
+.contenter .left_menu ul li{
+	overflow:hidden;
+	margin-top:4px;
+	padding:0 10px;
+}
+.contenter .left_menu ul a.hover{
+	color:#036;
+}
+.contenter .left_menu ul a:hover{
+	color:#036;
+}
+.contenter .left_menu .f_info_enter{
+	background:url(../image/custom/images/from_show_icon.png) 0px 0px no-repeat;
+}
+.contenter .left_menu .f_info_manage{
+	background:url(../image/custom/images/from_show_icon.png) 0px -25px no-repeat;
+}
+.contenter .left_menu .f_user_manage{
+	background:url(../image/custom/images/from_show_icon.png) 0px -55px no-repeat;
+}
+.contenter .left_menu .f_system_manage{
+	background:url(../image/custom/images/from_show_icon.png) 0px -85px no-repeat;
+}
+.contenter .left_menu .f_add_user{
+	background:url(../image/custom/images/from_show_icon.png) 0px -115px no-repeat;
+}
+
+.contenter .left_menu .f_log_manage{
+	background:url(../image/custom/images/from_show_icon.png) 0px -145px no-repeat;
+}
+.contenter .left_menu .left_ul_con a{
+	padding:0 0 0 20px;
+	background:url(../image/custom/images/from_show_icon.png) 0 -166px no-repeat;
+}
+.contenter .main{
+	min-height:600px;
+	_overflow:visible;
+	_height:auto !important;
+	_height:600px;
+	overflow:hidden;
+}
+.contenter .main .box{
+	padding:50px 0 0 75px;/*不一样的*/
+	font-size:14px;
+	color:#666;
+}
+.contenter .main .box ul li{
+	height:60px;
+}
+.contenter .main .box .gender span{
+	margin-left:5px;
+}
+.contenter .main .box .relationship{
+	overflow:hidden;
+}
+.contenter .main .box .relationship span{
+	margin-right:10px;
+}
+.contenter .main .box .relationship a{
+	overflow:hidden;
+	display:block;
+	float:left;
+	color:#666;
+}
+
+.contenter .main .box .relationship a i{
+	display:block;
+	height:18px;
+	width:18px;
+	background:url(../image/custom/images/from_show_icon.png) 0 -183px no-repeat;
+	margin-right:5px;
+	margin-top:2px;
+}
+.contenter .main .box .relationship a.select i{
+	background:url(../image/custom/images/from_show_icon.png) 0 -205px no-repeat;
+}
+.contenter .main .box .l_words{
+	width:70px;
+	text-align:right;
+	margin-right:20px;
+}
+.contenter .main .box .r_words{
+	width:600px;
+}
+.contenter .main .box .r_words .input_w{
+	width:598px;
+	height:26px;
+	line-height:26px;
+}
+.contenter .main .box .r_words .gender{
+	overflow:hidden;
+}
+.contenter .main .box .r_words .gender .man{
+	margin-right:20px;
+}
+.contenter .main .box .enter_form{
+	padding-left:85px;
+}
+.contenter .main .box .enter_form a.e_save{
+	display:block;
+	width:105px;
+	height:35px;
+	float:left;
+	margin-right:20px;
+	background:url(../image/custom/images/enter_form.png) -2px -2px no-repeat;
+}
+.contenter .main .box .enter_form a.e_back{
+	display:block;
+	width:105px;
+	height:35px;
+	float:left;
+	background:url(../image/custom/images/enter_form.png) -130px -2px no-repeat;
+}
+/*中间样式结束*/
+
+/*底部样式 通用*/
+.footer{
+	height:30px;
+	background:#4298df;
+	width:100%;
+	line-height:30px;
+	text-align:center;
+	color:white;
+}
+
+
+/* 首页main样式（待删除）*/
+.contenter .main .login_box{
+	padding:10px 110px 0 30px;
+	
+}
+.contenter .main .login_box .show_list{
+	border:#90cbfc 1px solid;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.contenter .main .login_box .show_list .title{
+	border-top:3px solid #90cbfc;
+	border-bottom:1px dashed #a6bdd2;
+	overflow:hidden;
+	padding:10px 15px 5px 15px;
+}
+.contenter .main .login_box .show_list .title .t_left i{
+	height:16px;
+	width:16px;
+	float:left;
+	display:block;
+	margin-top:2px;
+	margin-right:8px;
+	background:url(../images/login_in_icon.png) 0 -44px;
+}
+.contenter .main .login_box .show_list .t_left{
+	float:left;
+}
+.contenter .main .login_box .show_list .t_right{
+	float:right;
+}
+.contenter .main .login_box .show_list ul{
+	padding:20px 0px 25px 0px;
+}
+.contenter .main .login_box .show_list ul li{
+	padding:5px 25px 5px 40px;
+	overflow:hidden;
+}
+.contenter .main .login_box .show_list ul li.hover{
+	background:#F7F7F7;
+}
+.contenter .main .login_box .show_list ul li i{
+	display:block;
+	height:3px;
+	width:3px;
+	float:left;
+	background:#90cbfc;
+	margin:11px 8px 0 0 ;
+}
+.contenter .main .login_box .show_list ul li a{
+	color:#666;
+}
+.contenter .main .login_box .show_list ul li a:hover{
+	color:#069;
+}
+.contenter .main .login_box .show_list ul li div.t_right{
+	color:#666;
+}
