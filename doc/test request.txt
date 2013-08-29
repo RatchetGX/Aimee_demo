@@ -1,0 +1,1 @@
+http://localhost:8080/Aimee/serverMsgSender?kfbh=070f1a72-e7c7-11e2-942d-78e40091f9ae&msg={"meta_source":"customer","kh_khbh":"A01C81","kh_khzh":"wxh_01","kh_openid":"openid001","kh_nc":"xfx","kh_xb":"man","kh_cs":"beijing","kh_yy":"chinese","msg_id":"88888","msg_type":"text","msg_sendtime":"2013-07-18 08:05:10","msg_content":"Hello From Server!"}

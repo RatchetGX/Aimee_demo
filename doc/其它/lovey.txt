@@ -1,0 +1,1 @@
+https://172.16.6.41:444/svn/ssfw_framework/branches/ssfw-lovey

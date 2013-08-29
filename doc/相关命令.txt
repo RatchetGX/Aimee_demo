@@ -1,0 +1,6 @@
+启动mysql服务：mysqld -u root
+安装mysql服务(XP)：mysqld -install
+
+登录期间运行tomcat：catalina.sh run
+以服务方式启动tomcat：startup.sh
+以服务方式停止tomcat：shutdown.sh

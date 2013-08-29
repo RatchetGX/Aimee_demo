@@ -1,0 +1,21 @@
+Linux编译ffmpeg并转换MP3到AMR
+http://www.feiyan.info/13.html
+
+linux虚拟机下安装ffmpeg
+http://www.kaixinwenda.com/article-xiaoyangger-8682843.html
+
+
+linux ffmpeg安装全攻略 
+http://apipi.blog.163.com/blog/static/422663812008101821050402/
+
+LInux下如何安装ffmpeg 
+http://yezi.iteye.com/blog/139399/
+
+
+
+
+
+
+
+
+http://sourceforge.net/p/lame/bugs/251/
